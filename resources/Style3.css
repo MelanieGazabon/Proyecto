@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px;
+    border-bottom: 3px solid rgb(194, 123, 9);
+    margin-bottom: 10px;
+    background-color: rgb(238, 170, 62);
+}
+
+li{
+    display: inline-block;
+    position: relative;
+    align-items: center;
+    right: 30px;
+    list-style: none;
+    padding-left: 8px;
+    
+}
+
+a{
+    
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    transition: all 0.5s;
+}
+
+a:hover{
+    padding: 10px 2px;
+    background-color: white;
+    color: rgb(238, 170, 62);
+    border-radius: 12px;
+    
+}
+
+img{
+    margin-right: 600px;
+    width: 120px;
+    height: 50px;
+    cursor: pointer;
+    position: static;
+}
+
+.icon1{
+    font-size: 45px;
+    cursor: pointer;
+    color: black;
+    margin-right: 10px;
+    margin-left: 30px;
+    align-content: left;
+}
+
+.icon2{
+    font-size: 45px;
+    cursor: pointer;
+    color: black;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
+.titulo{
+    text-align: center;
+    margin: 30px;
+}
+
+.imagen1{
+    position: relative;
+    left: 5cm;
+    padding: 0px;
+    width: 12cm;
+    height: 18cm;
+}
+
+.items{
+    margin-top: -8cm;
+    position: absolute;
+    left: 25cm;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.form{
+    font-size: 10px;
+    padding: 0px;
+    width: 500px;
+    float: left;
+    margin-left: 80px;
+    margin-top: 0px;
+    /* border: solid 2px red; */    
+}
+.form form{
+    position: relative;
+    top: 0px;
+    /* border: solid red; */
+}
+
+.form h1{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 90px;
+}
+
+.enviar{
+    margin-top: 10px;
+    margin-left: 80px;
+    font-size: 15px;
+    height: 40px;
+    width: 100px;
+    border: none;
+    color: black;
+    background-color: #f2b327;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.2s;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+}
+
+.enviar:hover{
+    background-color: #e6a720;
+}
+
+input, textarea{
+    outline: none;
+    border: 0px;
+}
+
+.field{
+    margin-bottom: 15px;
+    width: 400px;
+    border: solid 1px #ccc;
+    padding: 10px;
+}
+
+.field:focus{
+    border-color: #f2b327;
+}

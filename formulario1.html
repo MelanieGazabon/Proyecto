@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/c711c3f533.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitud de Clientes</title>
+    <link href="resources/Style3.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+        <div class="icon1">
+            <i class="fas fa-bars"> </i>
+        </div>
+        <img src="resources/SnackLogo.png" alt="" class="logo">
+        <nav>
+            <ul>
+                <li><a href="">Productos</a> </li>
+                <li><a href="">Servicios</a> </li>
+                <li><a href="">Contactos</a> </li>
+                <li><a href="">Clientes</a> </li>
+                <li><a href="">PQRS</a> </li>
+            </ul>
+        </nav>
+        <div class="icon2">
+            <i class="fas fa-user"></i>
+        </div>
+    </header>
+    <h1 class="titulo">SOLICITUDES DE CLIENTES </h1>
+    <div><img src="resources/imagen1.jpg" alt="" class="imagen1"></div>
+    <div class="items">
+        <form v-on:submit.prevent="postContacto">
+            <p>Numero de Solicitud</p> 
+            <input v-model="data.nombre" type="text" class="field"> 
+
+            <p>Nombre</p>
+            <input v-model="data.email" type="email" class="field"> 
+
+            <p>NIT</p>
+            <input v-model="data.email" type="email" class="field">
+
+            <p>Direccion</p> 
+            <input v-model="data.nombre" type="text" class="field"> 
+
+            <p>Ciudad</p>
+            <input v-model="data.email" type="email" class="field"> 
+
+            <p>e-mail</p>
+            <input v-model="data.tel" type="text" class="field">
+
+            <p>Telefono</p>
+            <input v-model="data.tel" type="text" class="field">
+
+            <p>Solicitud</p>
+            <textarea v-model="data.comentario" class="field"></textarea>
+            <br>
+
+            <p>Respuesta</p>
+            <textarea v-model="data.comentario" class="field"></textarea>
+            <br>
+            <br>
+
+            <button type="submit" class="enviar"> Aceptar </button>
+            <button type="submit" class="enviar"> Rechazar </button>
+
+        </form>    
+        </div>
+</body>
+</html>

@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Respuestas a solicitudes</title>
-    <link href="resources/Style4.css" rel="stylesheet" type="text/css">
+    <link href="resources/Style5.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -29,19 +29,19 @@
         </div>
     </header>
     <h1 class="titulo">RESPUESTAS A SOLICITUD</h1>
-    <br>
-    <br>
-    <h3>Codigo Solicitud: <input v-model="data.tel" type="text" class="field"></h3>
-    <h3>Fecha de Solicitud: <input v-model="data.tel" type="text" class="field"></h3>
-    <h3>Fecha de Respuestas: <input v-model="data.tel" type="text" class="field"></h3>
-    <h3>Tipo de solicitud: <input v-model="data.tel" type="text" class="field"></h3>
-    <h3>Estado:
-        <textarea v-model="data.comentario" class="field"></textarea>
-    </h3>
-    <br>
-    <div class="botones">  
-        <button type="submit" class="enviar" style="margin-right: 7.5cm;"> Mis maquinas </button>
-        <button type="submit" class="enviar"style="margin-right: 7.5cm;"> Mis ordenes </button>
-        <button type="submit" class="enviar"> Modificar datos </button>
+    <div class="bloque">
+        <h3>Codigo Solicitud: <input v-model="data.tel" type="text" class="field"></h3>
+        <h3>Fecha de Solicitud: <input v-model="data.tel" type="text" class="field"></h3>
+        <h3>Fecha de Respuestas: <input v-model="data.tel" type="text" class="field"></h3>
+        <h3>Tipo de solicitud: <input v-model="data.tel" type="text" class="field"></h3>
+        <h3>Estado:
+        <textarea v-model="data.comentario" class="field" style="height:3cm"></textarea>
+        </h3>
+        <br>
+        <div class="botones">  
+            <button type="submit" class="enviar" style="margin-right: 7.5cm;"> Subir documentos </button>
+            <button type="submit" class="enviar"> Enviar</button>
+        </div>
     </div>
+    
 </body>

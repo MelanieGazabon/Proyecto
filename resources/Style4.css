@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px;
+    border-bottom: 3px solid rgb(194, 123, 9);
+    margin-bottom: 10px;
+    background-color: rgb(238, 170, 62);
+}
+
+li{
+    display: inline-block;
+    position: relative;
+    align-items: center;
+    right: 30px;
+    list-style: none;
+    padding-left: 8px;
+    
+}
+
+a{
+    
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    transition: all 0.5s;
+}
+
+a:hover{
+    padding: 10px 2px;
+    background-color: white;
+    color: rgb(238, 170, 62);
+    border-radius: 12px;
+    
+}
+
+img{
+    margin-right: 600px;
+    width: 120px;
+    height: 50px;
+    cursor: pointer;
+    position: static;
+}
+
+.icon1{
+    font-size: 45px;
+    cursor: pointer;
+    color: black;
+    margin-right: 10px;
+    margin-left: 30px;
+    align-content: left;
+}
+
+.icon2{
+    font-size: 45px;
+    cursor: pointer;
+    color: black;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
+.titulo{
+    text-align: center;
+    margin: 30px;
+}
+
+.bloque{
+    border-color: grey;
+    border: solid 0.5mm;
+    border-radius: 5mm;
+    margin-left: 5cm;
+    margin-bottom: 0.3cm;
+    text-align: left;
+    width: 25cm;
+    height: 7cm;
+    align-items: center;
+    padding: 0.8cm;
+    line-height: 1cm;  
+}
+
+.inf{
+    text-align: center;
+}
+
+.botones{margin-left: 5cm;}
+
+.enviar{
+    margin-left: 5cm;
+    margin: 0.5cm;
+    font-size: 15px;
+    height: auto;
+    width: auto;
+    border: none;
+    color: black;
+    background-color: #f2b327;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.2s;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+    padding: 0.2cm;
+}
+
+.enviar:hover{
+    background-color: #e6a720;
+}
+
+td {
+    font-size: 15px;
+    line-height: 20px;
+    padding: 0 80px;
+    text-align: justify;
+    vertical-align: top;
+    width: 50%;
+}
+
+.field{
+    margin-bottom: 15px;
+    width: 100%;
+    border: solid 1px #ccc;
+    padding: 10px;
+    height: 6px;
+}

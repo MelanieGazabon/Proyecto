@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/c711c3f533.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Respuestas a solicitudes</title>
+    <link href="resources/Style4.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+        <div class="icon1">
+            <i class="fas fa-bars"> </i>
+        </div>
+        <img src="resources/SnackLogo.png" alt="" class="logo">
+        <nav>
+            <ul>
+                <li><a href="">Productos</a> </li>
+                <li><a href="">Servicios</a> </li>
+                <li><a href="">Contactos</a> </li>
+                <li><a href="">Clientes</a> </li>
+                <li><a href="">PQRS</a> </li>
+            </ul>
+        </nav>
+        <div class="icon2">
+            <i class="fas fa-user"></i>
+        </div>
+    </header>
+    <h1 class="titulo">RESPUESTAS A SOLICITUD</h1>
+    <br>
+    <br>
+    <h3>Codigo Solicitud: <input v-model="data.tel" type="text" class="field"></h3>
+    <h3>Fecha de Solicitud: <input v-model="data.tel" type="text" class="field"></h3>
+    <h3>Fecha de Respuestas: <input v-model="data.tel" type="text" class="field"></h3>
+    <h3>Tipo de solicitud: <input v-model="data.tel" type="text" class="field"></h3>
+    <h3>Estado:</h3>
+    <textarea v-model="data.comentario" class="field"></textarea>
+    <br>
+    <div class="botones">  
+        <button type="submit" class="enviar" style="margin-right: 7.5cm;"> Mis maquinas </button>
+        <button type="submit" class="enviar"style="margin-right: 7.5cm;"> Mis ordenes </button>
+        <button type="submit" class="enviar"> Modificar datos </button>
+    </div>
+</body>
